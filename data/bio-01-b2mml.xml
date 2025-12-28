@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<B2MML:EquipmentInformation xmlns:B2MML="http://www.mesa.org/B2MML-V0600">
+    <B2MML:Equipment>
+        <B2MML:ID>BIO-01</B2MML:ID>
+        <B2MML:Description>500L Bioreactor Unit</B2MML:Description>
+        <B2MML:EquipmentLevel>Unit</B2MML:EquipmentLevel>
+        
+        <!-- Equipment Module 1: Temperature Control Loop -->
+        <B2MML:Equipment>
+            <B2MML:ID>EM-01</B2MML:ID>
+            <B2MML:Description>Temperature Control Loop</B2MML:Description>
+            <B2MML:EquipmentLevel>EquipmentModule</B2MML:EquipmentLevel>
+            
+            <!-- Control Module: Temperature Transmitter -->
+            <B2MML:Equipment>
+                <B2MML:ID>TT-101</B2MML:ID>
+                <B2MML:Description>Temperature Transmitter</B2MML:Description>
+                <B2MML:EquipmentLevel>ControlModule</B2MML:EquipmentLevel>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Manufacturer</B2MML:ID>
+                    <B2MML:Value>Endress+Hauser</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>SerialNumber</B2MML:ID>
+                    <B2MML:Value>SN-TEMP-998</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Model</B2MML:ID>
+                    <B2MML:Value>TMT162</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>CalibrationDate</B2MML:ID>
+                    <B2MML:Value>2024-01-15</B2MML:Value>
+                </B2MML:EquipmentProperty>
+            </B2MML:Equipment>
+            
+            <!-- Control Module: Steam Valve -->
+            <B2MML:Equipment>
+                <B2MML:ID>VLV-101</B2MML:ID>
+                <B2MML:Description>Steam Inlet Valve</B2MML:Description>
+                <B2MML:EquipmentLevel>ControlModule</B2MML:EquipmentLevel>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Manufacturer</B2MML:ID>
+                    <B2MML:Value>Emerson</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>SerialNumber</B2MML:ID>
+                    <B2MML:Value>SN-VLV-442</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Model</B2MML:ID>
+                    <B2MML:Value>Fisher EZ 3610J</B2MML:Value>
+                </B2MML:EquipmentProperty>
+            </B2MML:Equipment>
+        </B2MML:Equipment>
+        
+        <!-- Equipment Module 2: Agitation System -->
+        <B2MML:Equipment>
+            <B2MML:ID>EM-02</B2MML:ID>
+            <B2MML:Description>Agitation System</B2MML:Description>
+            <B2MML:EquipmentLevel>EquipmentModule</B2MML:EquipmentLevel>
+            
+            <!-- Control Module: Agitator Motor -->
+            <B2MML:Equipment>
+                <B2MML:ID>MTR-101</B2MML:ID>
+                <B2MML:Description>Agitator Motor</B2MML:Description>
+                <B2MML:EquipmentLevel>ControlModule</B2MML:EquipmentLevel>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Manufacturer</B2MML:ID>
+                    <B2MML:Value>Siemens</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>SerialNumber</B2MML:ID>
+                    <B2MML:Value>SN-MTR-554</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Model</B2MML:ID>
+                    <B2MML:Value>SIMOTICS SD</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>PowerRating</B2MML:ID>
+                    <B2MML:Value>2.2 kW</B2MML:Value>
+                </B2MML:EquipmentProperty>
+            </B2MML:Equipment>
+            
+            <!-- Control Module: Speed Controller -->
+            <B2MML:Equipment>
+                <B2MML:ID>SC-101</B2MML:ID>
+                <B2MML:Description>Speed Controller</B2MML:Description>
+                <B2MML:EquipmentLevel>ControlModule</B2MML:EquipmentLevel>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Manufacturer</B2MML:ID>
+                    <B2MML:Value>Siemens</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>SerialNumber</B2MML:ID>
+                    <B2MML:Value>SN-SC-778</B2MML:Value>
+                </B2MML:EquipmentProperty>
+                <B2MML:EquipmentProperty>
+                    <B2MML:ID>Model</B2MML:ID>
+                    <B2MML:Value>SINAMICS G120</B2MML:Value>
+                </B2MML:EquipmentProperty>
+            </B2MML:Equipment>
+        </B2MML:Equipment>
+    </B2MML:Equipment>
+</B2MML:EquipmentInformation>
